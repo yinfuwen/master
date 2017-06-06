@@ -1,8 +1,8 @@
-import React,{Component} from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 // import App from './App';
-import registerServiceWorker from './registerServiceWorker'
-import './index.css'
+import registerServiceWorker from './registerServiceWorker';
+// import './index.css';
 
 ///////////////////////////////////////////////////////////////
 // import Login from "./test2";
@@ -21,7 +21,7 @@ import './index.css'
 ////////////////////////////////////////////////////////////////
 
 // import {Router,Route,hashHistory,IndexRoute,Redirect,IndexRedirect,Link,IndexLink} from "react-router";
-import routerCfg from "./Router"
+import routerCfg from "./Router";
 ReactDOM.render(
     <div>{routerCfg}</div>,
     document.getElementById("root")
